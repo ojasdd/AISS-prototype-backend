@@ -13,12 +13,16 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI(title="SIH Timetable Prototype")
 
+origins = [
+    "https://aiss-prototype.vercel.app",  # your frontend
+    "http://localhost:5173",              # local dev if needed
+]
 # Add CORS middleware - MUST be before routes
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["*"],   # or restrict: ["GET", "POST"]
     allow_headers=["*"],
 )
 
