@@ -1,0 +1,76 @@
+{
+    "faculties": [
+        {
+            "id": "f1",
+            "name": "Alice",
+            "availability": [
+                "ts1",
+                "ts2"
+            ]
+        },
+        {
+            "id": "f2",
+            "name": "Bob",
+            "availability": [
+                "ts3",
+                "ts4"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "id": "c1",
+            "name": "Math",
+            "requiredSlots": 2,
+            "faculty_id": "f1"
+        },
+        {
+            "id": "c2",
+            "name": "Physics",
+            "requiredSlots": 2,
+            "faculty_id": "f2"
+        },
+        {
+            "id": "c3",
+            "name": "Chemistry",
+            "requiredSlots": 1,
+            "faculty_id": "f1"
+        }
+    ],
+    "classrooms": [
+        {
+            "id": "r1",
+            "name": "Room A",
+            "capacity": 40,
+            "type": "Lecture"
+        },
+        {
+            "id": "r2",
+            "name": "Lab 1",
+            "capacity": 30,
+            "type": "Lab"
+        }
+    ],
+    "timeslots": [
+        {
+            "id": "ts1",
+            "label": "Mon 09:00-09:50"
+        },
+        {
+            "id": "ts2",
+            "label": "Mon 10:00-10:50"
+        },
+        {
+            "id": "ts3",
+            "label": "Tue 09:00-09:50"
+        },
+        {
+            "id": "ts4",
+            "label": "Tue 10:00-10:50"
+        },
+        {
+            "id": "ts5",
+            "label": "Wed 09:00-09:50"
+        }
+    ]
+}

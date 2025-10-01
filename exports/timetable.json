@@ -1,0 +1,32 @@
+[
+    {
+        "course": "Math",
+        "faculty": "Alice",
+        "classroom": "Lab 1",
+        "timeslot": "Mon 10:00-10:50"
+    },
+    {
+        "course": "Math",
+        "faculty": "Alice",
+        "classroom": "Lab 1",
+        "timeslot": "Tue 09:00-09:50"
+    },
+    {
+        "course": "Physics",
+        "faculty": "Bob",
+        "classroom": "Lab 1",
+        "timeslot": "Mon 09:00-09:50"
+    },
+    {
+        "course": "Physics",
+        "faculty": "Bob",
+        "classroom": "Room A",
+        "timeslot": "Mon 10:00-10:50"
+    },
+    {
+        "course": "Chemistry",
+        "faculty": "Alice",
+        "classroom": "Room A",
+        "timeslot": "Tue 10:00-10:50"
+    }
+]

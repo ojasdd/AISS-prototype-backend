@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+sqlalchemy
+python-dotenv
+ortools
+psycopg2-binary        # only needed when you switch to Postgres
+alembic                # only for Postgres migrations later
